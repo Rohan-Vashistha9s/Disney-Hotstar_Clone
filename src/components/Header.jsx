@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 
 const Header = (props) => {
@@ -100,8 +99,9 @@ const NavMenu = styled.div`
         opacity: 1 !important;
       }
     }
-  }
+  } 
 `;
+
 
 const Login = styled.a`
   background-color: rgba(0, 0, 0, 0.6);
