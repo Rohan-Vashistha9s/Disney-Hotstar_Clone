@@ -3,21 +3,21 @@ import styled from "styled-components";
 
 
 const Login = (props) => {
-    return (
-        <div>
-            <Container>
-                <Content>
-                    <CTA>
-                        <CTALogoOne src="/images/cta-logo-one.svg" alt="" />
-                        <SignUp>GET ALL THERE</SignUp>
-                        <Description>Get Premier Access to Rays and the Last Dragon for an additional fee with a Disney+ subscription.As of 03/26/24, the price of Disney+ and The Disney Bundle will increased by $1.</Description>
-                        <CTALogoTwo src="/images/cta-logo-two.png " alt= "" />
-                    </CTA>
-                    <BgImage />
-                </Content>
-            </Container>
-        </div>
-    )
+   return (
+      <div>
+         <Container>
+            <Content>
+               <CTA>
+                  <CTALogoOne src="/images/cta-logo-one.svg" alt="" />
+                  <SignUp>GET ALL THERE</SignUp>
+                  <Description>Get Premier Access to Rays and the Last Dragon for an additional fee with a Disney+ subscription.As of 03/26/24, the price of Disney+ and The Disney Bundle will increased by $1.</Description>
+                  <CTALogoTwo src="/images/cta-logo-two.png " alt="" />
+               </CTA>
+               <BgImage />
+            </Content>
+         </Container>
+      </div>
+   )
 };
 
 
