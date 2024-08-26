@@ -72,7 +72,7 @@ const NavMenu = styled.div`
       line-height: 1.08;
       padding: 2px 0px;
       white-space: nowrap;
-      position: relative;
+      position: relative; 
 
       &:before {
         background-color: rgb(249, 249, 249);
